@@ -1,0 +1,22 @@
+# Compila el instalador de Windows en GitHub y lo publica en Releases. No hace falta instalar nada en tu PC.
+# Se lanza solo cuando cambias "version" en package.json (desde la web de GitHub), o a mano en Actions → Run workflow.
+name: Publicar launcher
+on:
+  push:
+    branches: [main]
+    paths: [package.json]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  windows:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm install
+      - run: npx electron-builder --win --publish always
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
