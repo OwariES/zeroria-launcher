@@ -1,6 +1,6 @@
 {
   "minecraft": "1.21.11",
-  "neoforge": "21.11.45",
+  "neoforge": "21.11.48",
   "servidor": { "nombre": "Zeroria", "host": "play.zeroria.es", "puerto": 25565 },
   "lema": "Un mundo de leyendas te espera",
 
