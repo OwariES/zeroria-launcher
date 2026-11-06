@@ -1,0 +1,22 @@
+{
+  "name": "zeroria-launcher",
+  "productName": "Zeroria Launcher",
+  "version": "0.1.0",
+  "description": "Launcher oficial de Zeroria",
+  "main": "main/main.js",
+  "author": "Owari",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder --win",
+    "publicar": "electron-builder --win --publish always"
+  },
+  "dependencies": {
+    "electron-updater": "6.3.9"
+  },
+  "devDependencies": {
+    "electron": "33.2.1",
+    "electron-builder": "25.1.8"
+  }
+}
