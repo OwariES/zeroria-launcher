@@ -1,0 +1,12 @@
+[
+  {
+    "titulo": "¡Bienvenido al launcher de Zeroria!",
+    "fecha": "2026-11-05",
+    "etiqueta": "Novedad",
+    "fijada": true,
+    "imagen": "noticias/bienvenida.jpg",
+    "resumen": "Juega a Zeroria en Vanilla o con Zeroria+ con un solo botón.",
+    "texto": "Este es el **launcher oficial de Zeroria**.\n\nElige *Vanilla* para jugar con el Minecraft de siempre o *Zeroria+* para jugar con shaders, animaciones y todas las mejoras.\n\nMás información en [nuestra web](https://zeroria.es).",
+    "enlace": ""
+  }
+]

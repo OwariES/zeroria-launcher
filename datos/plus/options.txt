@@ -1,0 +1,6 @@
+lang:es_es
+guiScale:3
+renderDistance:12
+simulationDistance:8
+maxFps:120
+fullscreen:false

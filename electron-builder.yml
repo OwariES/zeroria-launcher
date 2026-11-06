@@ -1,0 +1,29 @@
+# Empaquetado para Windows (npm run dist) y publicación en GitHub Releases (npm run publicar).
+appId: es.zeroria.launcher
+productName: Zeroria Launcher
+copyright: Zeroria
+directories:
+  output: dist
+  buildResources: build
+files:
+  - main/**
+  - renderer/**
+  - launcher.config.json
+  - package.json
+  - "!datos/**"
+win:
+  target: nsis
+  icon: build/icon.ico
+nsis:
+  oneClick: false
+  allowToChangeInstallationDirectory: true
+  perMachine: false
+  createDesktopShortcut: true
+  shortcutName: Zeroria Launcher
+  installerIcon: build/icon.ico
+  uninstallerIcon: build/icon.ico
+  installerHeaderIcon: build/icon.ico
+# Se publica en las Releases del mismo repositorio de GitHub (lo detecta solo) y de ahí se actualiza el launcher.
+publish:
+  provider: github
+  releaseType: release

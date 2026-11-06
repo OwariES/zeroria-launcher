@@ -1,0 +1,3 @@
+Los .jar del modo Zeroria+ (NeoForge 1.21.11): Zeroria+, Iris, Sodium/Embeddium, EMF, ETF…
+El launcher deja la carpeta mods de los jugadores EXACTAMENTE como esté aquí: arrastra un .jar para añadirlo y
+bórralo para quitarlo. Ojo con las licencias: sube solo mods que permitan redistribuirlos.

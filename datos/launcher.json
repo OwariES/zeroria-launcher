@@ -1,0 +1,12 @@
+{
+  "minecraft": "1.21.11",
+  "neoforge": "21.11.45",
+  "servidor": { "nombre": "Zeroria", "host": "play.zeroria.es", "puerto": 25565 },
+  "lema": "Un mundo de leyendas te espera",
+
+  "aviso": { "texto": "✦ Temporada de otoño: dobles recompensas en las profesiones", "enlace": "" },
+  "evento": { "titulo": "Gran apertura en", "fecha": "2026-12-01T20:00:00+01:00" },
+  "mantenimiento": null,
+
+  "modos": { "vanilla": true, "plus": true }
+}

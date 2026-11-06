@@ -1,0 +1,26 @@
+{
+  "_ayuda": "Configuración fija del launcher. Lo que cambia a menudo (noticias, mods, versión, servidor) va en el repositorio de datos de GitHub, no aquí.",
+
+  "_microsoft": "Déjalo vacío: se entra como en casi todos los launchers. Solo si algún día registras tu propia app de Azure (aprobada por Mojang), pon aquí su ID.",
+  "microsoftClientId": "",
+
+  "datos": {
+    "_ayuda": "Tu repositorio PÚBLICO de GitHub del launcher; los datos (noticias, mods…) van en su carpeta datos/.",
+    "usuario": "TU_USUARIO_DE_GITHUB",
+    "repositorio": "zeroria-launcher",
+    "rama": "main",
+    "carpeta": "datos"
+  },
+
+  "porDefecto": {
+    "minecraft": "1.21.11",
+    "neoforge": "21.11.45",
+    "servidor": { "nombre": "Zeroria", "host": "play.zeroria.es", "puerto": 25565 }
+  },
+
+  "enlaces": {
+    "web": "https://zeroria.es",
+    "discord": "",
+    "comprar": "https://www.minecraft.net/es-es/store/minecraft-java-bedrock-edition-pc"
+  }
+}
